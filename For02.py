@@ -7,9 +7,11 @@ def main(n):
         string: return  answer
     """
     a='''"'''
-    for i in range(0,n):
+    for i in range(0,n-1):
         a+=str(i)
-        continue 
+        a=a+','
+        continue
+    a+=str(n-1) 
     a+='"'
     return a
-print(main(10))
+print(main(12))
