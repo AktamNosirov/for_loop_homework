@@ -9,6 +9,6 @@ def main(n):
     
     a=[]
     for i in range(0,n):
-        a+=[str(i)]
+        a+=[i]
     return a
 print(main(10))
