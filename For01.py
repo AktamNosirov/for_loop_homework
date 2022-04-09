@@ -7,8 +7,8 @@ def main(n):
         list: return  answer
     """
     
-    
+    a=[]
     for i in range(0,n):
-        print(i)
-    return 
+        a+=[str(i)]
+    return a
 print(main(10))
